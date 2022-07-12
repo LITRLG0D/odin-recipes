@@ -1,9 +1,23 @@
-h1 {text-align: center;}
-body {font-family: Verdana, Geneva, Tahoma, sans-serif; 
-    background: linear-gradient(90deg, rgb(226, 187, 165), rgb(255, 206, 249));
+.header {
+    color: rgb(211, 175, 211);
+    text-shadow: 2px 2px 7px #111111;
+    text-align: center;
+    font-family: Georgia, Times, serif;
 }
-hr {border-style: dotted none none;
+.crockpot {
+    width: 40%;
+    margin: auto;
+    padding-bottom: 1rem;
+}
+body { 
+    background: linear-gradient(90deg, rgb(54, 53, 56), rgb(147, 147, 161));
+}
+hr {
+    border-style: dotted none none;
     border-width: 6px;
     width: 50%; 
-    border-color: rgba(0, 0, 0, 0.185);
+    border-color: rgba(235, 232, 232, 0.767);
+}
+p {
+    color: whitesmoke;
 }
